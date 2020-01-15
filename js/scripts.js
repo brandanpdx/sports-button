@@ -1,9 +1,11 @@
 $(document).ready(function() {
   $(".beavers").click(function() {
-    $("body").toggleClass("beaverstheme");
+    $("body").removeClass("duckstheme");
+    $("body").addClass("beaverstheme");
   })
   $(".ducks").click(function() {
-    $("body").toggleClass("duckstheme");
+    $("body").removeClass("beaverstheme");
+    $("body").addClass("duckstheme");
   })
 });
 

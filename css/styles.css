@@ -1,0 +1,49 @@
+body {
+  background: #f2e9de;
+  color: white;
+}
+
+.beaverstheme {
+  background: linear-gradient(-45deg, orange 50%, black 50%);
+}
+
+.duckstheme {
+  background: linear-gradient(-45deg, yellow 50%, green 50%);
+}
+
+.box {
+  text-align: center;
+  width: 450px;
+  margin: 300px auto;
+  padding: 5px;
+  border: 2px solid black;
+  background: black;
+  opacity: 0.9;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.beavers {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 5px;
+}
+
+.beavers:hover {
+  background: linear-gradient(-45deg, orange 50%, black 50%);
+  color: white;
+  cursor: pointer;
+}
+
+.ducks {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 5px;
+}
+
+.ducks:hover {
+  background: linear-gradient(-45deg, yellowgreen 50%, yellow 50%);
+  cursor: pointer;
+}
+
